@@ -149,6 +149,20 @@
   <ItemGroup>
     <ClInclude Include="src\shader.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\lesson\readme.txt" />
+    <Text Include="src\lesson\shaders\shaders.txt" />
+    <Text Include="src\lesson\triangle\triangle_code.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\shader.fs">
+      <FileType>Text</FileType>
+    </None>
+    <None Include="res\shaders\shader.vs">
+      <FileType>Text</FileType>
+      <DeploymentContent>false</DeploymentContent>
+    </None>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
