@@ -150,11 +150,15 @@
     <ClInclude Include="src\shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="res\shaders\textures.vs" />
     <Text Include="src\lesson\readme.txt" />
-    <Text Include="src\lesson\shaders\shaders.txt" />
-    <Text Include="src\lesson\triangle\triangle_code.txt" />
+    <Text Include="src\lesson\shaders\shaders_cpp.txt" />
+    <Text Include="src\lesson\textures\textures_cpp.txt" />
+    <Text Include="src\lesson\triangle\triangle_cpp.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
     <None Include="res\shaders\shader.fs">
       <FileType>Text</FileType>
     </None>
@@ -162,6 +166,13 @@
       <FileType>Text</FileType>
       <DeploymentContent>false</DeploymentContent>
     </None>
+    <None Include="res\shaders\textures.fs">
+      <FileType>Text</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\image\container.jpg" />
+    <Image Include="res\image\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
