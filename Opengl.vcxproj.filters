@@ -32,20 +32,27 @@
     <Text Include="src\lesson\triangle\triangle_cpp.txt" />
     <Text Include="src\lesson\shaders\shaders_cpp.txt" />
     <Text Include="src\lesson\textures\textures_cpp.txt" />
-    <Text Include="res\shaders\textures.vs" />
+    <Text Include="res\shaders\textures\textures.vs" />
+    <Text Include="src\lesson\textures\mix_textures_cpp.txt" />
+    <Text Include="src\lesson\textures\mix_input_cpp.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shaders\shader.fs" />
     <None Include="res\shaders\shader.vs" />
     <None Include=".gitignore" />
     <None Include="README.md" />
-    <None Include="res\shaders\textures.fs" />
+    <None Include="res\shaders\textures\textures.fs" />
+    <None Include="res\shaders\textures\mix_textures.fs" />
+    <None Include="res\shaders\textures\mix_input_textures.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\image\wall.jpg">
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\image\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\awesomeface.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
