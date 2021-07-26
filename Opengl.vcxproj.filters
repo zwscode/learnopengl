@@ -21,9 +21,15 @@
     <ClCompile Include="src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\lesson\stb_image_file.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,15 +41,23 @@
     <Text Include="res\shaders\textures\textures.vs" />
     <Text Include="src\lesson\textures\mix_textures_cpp.txt" />
     <Text Include="src\lesson\textures\mix_input_cpp.txt" />
+    <Text Include="src\lesson\transformations\transformations_cpp.txt" />
+    <Text Include="src\lesson\colors\colors.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\shaders\shader.fs" />
-    <None Include="res\shaders\shader.vs" />
+    <None Include="res\shaders\shaders\shader.fs" />
+    <None Include="res\shaders\shaders\shader.vs" />
     <None Include=".gitignore" />
     <None Include="README.md" />
     <None Include="res\shaders\textures\textures.fs" />
     <None Include="res\shaders\textures\mix_textures.fs" />
     <None Include="res\shaders\textures\mix_input_textures.fs" />
+    <None Include="res\shaders\trans\trans.vs" />
+    <None Include="res\shaders\trans\trans.fs" />
+    <None Include="res\shaders\colors\colors.vs" />
+    <None Include="res\shaders\colors\colors.fs" />
+    <None Include="res\shaders\colors\light.vs" />
+    <None Include="res\shaders\colors\light.fs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\image\wall.jpg">
